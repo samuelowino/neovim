@@ -20,8 +20,7 @@ require("lazy").setup({
 	spec = {
 	   { import = "plugins.parser" }, 
 	   { import = "plugins.productivity" },
+	   { import = "plugins.colorscheme" },
 	}, 
-	install = { colorscheme = { "habamax" } }, 
 	checker = { enabled = true },
 })
-vim.cmd.colorscheme("habamax")
