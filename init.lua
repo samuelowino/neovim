@@ -8,3 +8,5 @@ vim.api.nvim_create_autocmd({ "InsertLeave", "FocusLost", "BufLeave" }, {
   pattern = "*",
   command = "silent! update",
 })
+
+require("config.lazy")
