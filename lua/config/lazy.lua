@@ -18,9 +18,10 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 require("lazy").setup({
 	spec = {
-	   { import = "plugins" }, 
+	   { import = "plugins.parser" }, 
+	   { import = "plugins.productivity" },
 	}, 
 	install = { colorscheme = { "habamax" } }, 
 	checker = { enabled = true },
 })
-
+vim.cmd.colorscheme("habamax")
