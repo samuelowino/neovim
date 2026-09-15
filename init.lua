@@ -10,3 +10,4 @@ vim.api.nvim_create_autocmd({ "InsertLeave", "FocusLost", "BufLeave" }, {
 })
 
 require("config.lazy")
+require("config.commands")
